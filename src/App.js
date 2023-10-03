@@ -7,7 +7,7 @@ function App() {
   const [pokemons, setPokemons] = useState([]);
 
   const getPokemons =async () => {
-    let url = "https://pokeapi.co/api/v2/pokemon?limit=20";
+    let url = "https://pokeapi.co/api/v2/pokemon?limit=1292";
     const response =await fetch(url);
     const data =await response.json();
     // console.log(data.results);

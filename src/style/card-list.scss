@@ -14,21 +14,21 @@
   background-color: #fff;
   box-shadow: 5px 10px 15px black, 5px 10px 15px white;
   border-radius: 20px;
-  
+  cursor: pointer;
 }
 .card-pokemon {
- width: 90vw;
+  width: 90vw;
   display: flex;
   flex-wrap: wrap;
   gap: 100px;
   margin: 0 auto;
   border-radius: 20px;
-  box-shadow: 5px 10px 15px yellow , 5px 10px 15px purple;
+  box-shadow: 5px 10px 15px yellow, 5px 10px 15px purple;
   justify-content: center;
   background: linear-gradient(to right, yellow, purple, blue);
   padding-top: 100px;
   font-family: monospace;
   font-size: 25px;
   text-align: center;
-  color:white;
+  color: white;
 }

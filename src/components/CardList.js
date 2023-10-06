@@ -1,21 +1,18 @@
 import React from "react";
 import "../style/card-list.scss";
+import Card from "./Card";
 
 const CardList = ({ pokemons }) => {
   return (
-    <div className="card-pokemon">
+    
+    <div className="card-list">
+
+
+
       {pokemons.map((pokemon) => (
-        <div>
-          <div className="pokemon">
-            <img
-              src={`https://img.pokemondb.net/artwork/large/${pokemon.name}.jpg`}
-              alt={pokemon.name}
-            />
-          </div>
-          <h2>
-            {pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}
-          </h2>
-        </div>
+
+        <Card key={pokemon.name}  pokemon={pokemon} />
+       
       ))}
     </div>
   );

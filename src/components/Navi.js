@@ -1,9 +1,15 @@
 import React from 'react'
 import "../style/navi.scss"
+import SearchBox from './SearchBox'
 
-const Navi = () => {
+const Navi = ({handleChange}) => {
   return (
-    <div className='nav'>Navi</div>
+    <div className='nav'>
+      <h4>Pokemons</h4>
+        <SearchBox
+          handleChange= {handleChange}
+        />
+    </div>
   )
 }
 

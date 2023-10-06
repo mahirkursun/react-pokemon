@@ -1,14 +1,32 @@
 .nav {
   width: 90vw;
   margin-top: 25px;
-  border: 1px solid black;
+ 
   height: 15vh;
   font-size: 30px;
-  
+  box-shadow: 5px 10px 15px white, 5px 10px 15px purple;
 border-radius: 20px;
-background: linear-gradient(to right, yellow, purple, blue);;
+
+
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
 align-items: center;
+flex-direction: column;
+color: white;
+font-family: monospace;
+
+}
+
+.nav h4{
+  margin-bottom: 10px;
+}
+.search-box input{
+  width: 30vw;
+  height: 4vh;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 0 12px ;
+  font-family: monospace;
+
 }

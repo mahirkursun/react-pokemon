@@ -7,6 +7,8 @@ function App() {
   const [pokemons, setPokemons] = useState([]);
   const [filteredPokemons, setFilteredPokemons] = useState([]);
 
+ 
+
   const getPokemons = async () => {
     let url = "https://pokeapi.co/api/v2/pokemon?limit=1292";
     const response = await fetch(url);
@@ -36,6 +38,7 @@ function App() {
         <Navi handleChange={handleChange} />
         <CardList
           pokemons={filteredPokemons.length > 0 ? filteredPokemons : pokemons}
+         
         />
       </div>
     </>

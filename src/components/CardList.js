@@ -12,7 +12,7 @@ const CardList = ({ pokemons }) => {
       {pokemons.map((pokemon) => (
 
         <Card key={pokemon.name}  pokemon={pokemon} />
-       
+        
       ))}
     </div>
   );
